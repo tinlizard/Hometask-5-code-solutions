@@ -1,0 +1,13 @@
+x = 2
+
+N = 7 #number of iterations
+a = 1 # initial 
+c = 1/3
+d = 2/3
+
+for i in range(N):
+    anext = (c*a)+(x/(d*a^2))
+    a = anext
+    print("Step {}, our approximation: {} ".format(i, numerical_approx(anext)))
+    
+print("\nThe limit does not exist ")
